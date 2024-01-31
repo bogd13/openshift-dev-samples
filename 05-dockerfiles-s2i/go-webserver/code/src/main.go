@@ -6,7 +6,7 @@ import (
     "net/http"
 )
 
-var name string = "Bogd"
+var name string = "Bogdan"
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
     if r.URL.Path != "/hello" {
